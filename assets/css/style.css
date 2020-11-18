@@ -5,6 +5,17 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+body div#tarteaucitronRoot.tarteaucitronBeforeVisible:before {
+	opacity: 0;
+}
+
+body div#tarteaucitronRoot div#tarteaucitronAlertBig {
+	transform: translate(-50%,-5%);
+    top: unset;
+    bottom: 0px;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
