@@ -159,13 +159,13 @@
     </div>
   </section><!-- End Hero -->
 
-	<script src="https://unpkg.com/rive-canvas@0.6.4/rive.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/rive-canvas@0.6.10/rive.js"></script>
 	<!-- Simple script to run a looping animation -->
 <script>
   ; (function () {
     // first, instantiate the Rive engine and load the WASM file(s)
     Rive({
-      locateFile: (file) => 'https://unpkg.com/rive-canvas@0.6.4/' + file,
+      locateFile: (file) => 'https://cdn.jsdelivr.net/npm/rive-canvas@0.6.10/' + file,
     }).then((rive) => {
       // Rive's ready to rock 'n roll
       // Let's load up a Rive animation file, typically ending in '.riv'
